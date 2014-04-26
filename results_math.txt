@@ -2,3 +2,10 @@ Mathematics!
 
 Based upon your responses, mathematics may be an ideal subject.
 Sub-fields to investigate may be economics, statistics and crytography.
+
+Sub-Disciplines:
+  - Economics
+  - Statistics
+  - Crytography/Security
+  - Risk Advisor
+  - Development of models
