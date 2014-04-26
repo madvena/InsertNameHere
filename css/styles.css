@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: transparent;
+    background-image: url('../images/bg.jpg');
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', 'sans-serif';
+    color: #FFFFFF;
+}
+
+.quizbox {
+    width: 70%;
+    margin: auto;
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    height: 100%;
+}
+
+.questionbox {
+    background-color: rgba(253, 84, 84, 0.8);
+    height: 100%;
+    padding: 30px;
+}
+
+.choicebox {
+    color: #545454;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    font-size: 1.2em;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: rgba(84, 84, 84, 0.3);
+}
+
+.choicebox:hover {
+    cursor: pointer;
+    color: #545454;
+    background-color: rgba(249, 250, 133, 0.5);
+    transition: background-color 0.25s linear;   
+    -webkit-transition: background-color 0.25s linear;
+    -moz-transition: background-color 0.25s linear;
+    -o-transition: background-color 0.25s linear;
+    -ms-transition: background-color 0.25s linear;  
+}
+
